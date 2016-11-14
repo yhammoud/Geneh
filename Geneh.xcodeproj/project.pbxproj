@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2158B3401DD58200002D2210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158B33F1DD58200002D2210 /* AppDelegate.swift */; };
+		2158B3421DD58200002D2210 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158B3411DD58200002D2210 /* ViewController.swift */; };
+		2158B3451DD58200002D2210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2158B3431DD58200002D2210 /* Main.storyboard */; };
+		2158B3471DD58200002D2210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2158B3461DD58200002D2210 /* Assets.xcassets */; };
+		2158B34A1DD58200002D2210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2158B3481DD58200002D2210 /* LaunchScreen.storyboard */; };
+		2158B3551DD58200002D2210 /* GenehTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158B3541DD58200002D2210 /* GenehTests.swift */; };
+		7181EB1B49FF70AB11F85A58 /* Pods_Geneh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC954F25EB91E92905C705B9 /* Pods_Geneh.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2158B3511DD58200002D2210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2158B3341DD58200002D2210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2158B33B1DD58200002D2210;
+			remoteInfo = Geneh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2158B33C1DD58200002D2210 /* Geneh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geneh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2158B33F1DD58200002D2210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2158B3411DD58200002D2210 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2158B3441DD58200002D2210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2158B3461DD58200002D2210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2158B3491DD58200002D2210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2158B34B1DD58200002D2210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2158B3501DD58200002D2210 /* GenehTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenehTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2158B3541DD58200002D2210 /* GenehTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenehTests.swift; sourceTree = "<group>"; };
+		2158B3561DD58200002D2210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFD456207DAED8D726FD450 /* Pods_GenehTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenehTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3595E805FA6636BCDA58AC /* Pods-Geneh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geneh.release.xcconfig"; path = "Pods/Target Support Files/Pods-Geneh/Pods-Geneh.release.xcconfig"; sourceTree = "<group>"; };
+		C219EFB8D7FC79A9B45BB396 /* Pods-Geneh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geneh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Geneh/Pods-Geneh.debug.xcconfig"; sourceTree = "<group>"; };
+		FC954F25EB91E92905C705B9 /* Pods_Geneh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Geneh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2158B3391DD58200002D2210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7181EB1B49FF70AB11F85A58 /* Pods_Geneh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2158B34D1DD58200002D2210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C9064190623104C1D72D3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C219EFB8D7FC79A9B45BB396 /* Pods-Geneh.debug.xcconfig */,
+				4E3595E805FA6636BCDA58AC /* Pods-Geneh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2158B3331DD58200002D2210 = {
+			isa = PBXGroup;
+			children = (
+				2158B33E1DD58200002D2210 /* Geneh */,
+				2158B3531DD58200002D2210 /* GenehTests */,
+				2158B33D1DD58200002D2210 /* Products */,
+				09C9064190623104C1D72D3A /* Pods */,
+				85BB34521EBF3B5A78D2EEFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2158B33D1DD58200002D2210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2158B33C1DD58200002D2210 /* Geneh.app */,
+				2158B3501DD58200002D2210 /* GenehTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2158B33E1DD58200002D2210 /* Geneh */ = {
+			isa = PBXGroup;
+			children = (
+				2158B33F1DD58200002D2210 /* AppDelegate.swift */,
+				2158B3411DD58200002D2210 /* ViewController.swift */,
+				2158B3431DD58200002D2210 /* Main.storyboard */,
+				2158B3461DD58200002D2210 /* Assets.xcassets */,
+				2158B3481DD58200002D2210 /* LaunchScreen.storyboard */,
+				2158B34B1DD58200002D2210 /* Info.plist */,
+			);
+			path = Geneh;
+			sourceTree = "<group>";
+		};
+		2158B3531DD58200002D2210 /* GenehTests */ = {
+			isa = PBXGroup;
+			children = (
+				2158B3541DD58200002D2210 /* GenehTests.swift */,
+				2158B3561DD58200002D2210 /* Info.plist */,
+			);
+			path = GenehTests;
+			sourceTree = "<group>";
+		};
+		85BB34521EBF3B5A78D2EEFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC954F25EB91E92905C705B9 /* Pods_Geneh.framework */,
+				3DFD456207DAED8D726FD450 /* Pods_GenehTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2158B33B1DD58200002D2210 /* Geneh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2158B3591DD58200002D2210 /* Build configuration list for PBXNativeTarget "Geneh" */;
+			buildPhases = (
+				A440ED8400F329092447F4CA /* [CP] Check Pods Manifest.lock */,
+				2158B3381DD58200002D2210 /* Sources */,
+				2158B3391DD58200002D2210 /* Frameworks */,
+				2158B33A1DD58200002D2210 /* Resources */,
+				A84EC23A753C93432F0A0B3E /* [CP] Embed Pods Frameworks */,
+				14EA80B1FDB799F6D4B8E0BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Geneh;
+			productName = Geneh;
+			productReference = 2158B33C1DD58200002D2210 /* Geneh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2158B34F1DD58200002D2210 /* GenehTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2158B35C1DD58200002D2210 /* Build configuration list for PBXNativeTarget "GenehTests" */;
+			buildPhases = (
+				2158B34C1DD58200002D2210 /* Sources */,
+				2158B34D1DD58200002D2210 /* Frameworks */,
+				2158B34E1DD58200002D2210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2158B3521DD58200002D2210 /* PBXTargetDependency */,
+			);
+			name = GenehTests;
+			productName = GenehTests;
+			productReference = 2158B3501DD58200002D2210 /* GenehTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2158B3341DD58200002D2210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Geneh;
+				TargetAttributes = {
+					2158B33B1DD58200002D2210 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UKKPQBWHSK;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					2158B34F1DD58200002D2210 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5Q38JD7F6P;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2158B33B1DD58200002D2210;
+					};
+				};
+			};
+			buildConfigurationList = 2158B3371DD58200002D2210 /* Build configuration list for PBXProject "Geneh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2158B3331DD58200002D2210;
+			productRefGroup = 2158B33D1DD58200002D2210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2158B33B1DD58200002D2210 /* Geneh */,
+				2158B34F1DD58200002D2210 /* GenehTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2158B33A1DD58200002D2210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2158B34A1DD58200002D2210 /* LaunchScreen.storyboard in Resources */,
+				2158B3471DD58200002D2210 /* Assets.xcassets in Resources */,
+				2158B3451DD58200002D2210 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2158B34E1DD58200002D2210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14EA80B1FDB799F6D4B8E0BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Geneh/Pods-Geneh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A440ED8400F329092447F4CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A84EC23A753C93432F0A0B3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Geneh/Pods-Geneh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2158B3381DD58200002D2210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2158B3421DD58200002D2210 /* ViewController.swift in Sources */,
+				2158B3401DD58200002D2210 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2158B34C1DD58200002D2210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2158B3551DD58200002D2210 /* GenehTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2158B3521DD58200002D2210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2158B33B1DD58200002D2210 /* Geneh */;
+			targetProxy = 2158B3511DD58200002D2210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2158B3431DD58200002D2210 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2158B3441DD58200002D2210 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2158B3481DD58200002D2210 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2158B3491DD58200002D2210 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2158B3571DD58200002D2210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2158B3581DD58200002D2210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2158B35A1DD58200002D2210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C219EFB8D7FC79A9B45BB396 /* Pods-Geneh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UKKPQBWHSK;
+				INFOPLIST_FILE = Geneh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fivebox.Geneh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2158B35B1DD58200002D2210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3595E805FA6636BCDA58AC /* Pods-Geneh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UKKPQBWHSK;
+				INFOPLIST_FILE = Geneh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fivebox.Geneh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2158B35D1DD58200002D2210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5Q38JD7F6P;
+				INFOPLIST_FILE = GenehTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whyHammoud.GenehTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geneh.app/Geneh";
+			};
+			name = Debug;
+		};
+		2158B35E1DD58200002D2210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5Q38JD7F6P;
+				INFOPLIST_FILE = GenehTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whyHammoud.GenehTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geneh.app/Geneh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2158B3371DD58200002D2210 /* Build configuration list for PBXProject "Geneh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2158B3571DD58200002D2210 /* Debug */,
+				2158B3581DD58200002D2210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2158B3591DD58200002D2210 /* Build configuration list for PBXNativeTarget "Geneh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2158B35A1DD58200002D2210 /* Debug */,
+				2158B35B1DD58200002D2210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2158B35C1DD58200002D2210 /* Build configuration list for PBXNativeTarget "GenehTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2158B35D1DD58200002D2210 /* Debug */,
+				2158B35E1DD58200002D2210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2158B3341DD58200002D2210 /* Project object */;
+}
