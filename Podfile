@@ -8,4 +8,5 @@ use_frameworks!
 target 'Geneh' do
     pod 'Alamofire', '~> 4.0'
     pod 'MBProgressHUD'
+    pod 'OneSignal'
 end
