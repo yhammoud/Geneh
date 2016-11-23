@@ -12,29 +12,15 @@ import MBProgressHUD
 
 class ViewController: UIViewController {
 
-    let url = "http://10.229.123.237:3000/api/exchange_rate"
-    let graphUrl = "https://www.google.com/finance/chart?q=CURRENCY:USDEGP&tkr=1&p=5Y&chst=vkc&chs=269x94&chsc=1&ei=vP4lWO2qM8rrmQHt74Ag"
+    let url = "https://currencynotification.herokuapp.com/api/exchange_rate"
+    let graphUrl = "https://www.google.com/finance/chart?q=CURRENCY:USDEGP&tkr=1&p=1M&chst=vkc&chs=269x94&chsc=1&ei=vP4lWO2qM8rrmQHt74Ag"
     @IBOutlet weak var graph: UIImageView!
     @IBOutlet weak var geneh: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        Alamofire.request(url)
-            .responseJSON { response in
-                print(response.request as Any)  // original URL request
-                print(response.response as Any) // HTTP URL response
-                print(response.data as Any)     // server data
-                print(response.result)
-                if let JSON = response.result.value {
-                    self.geneh.text = "\(JSON) EGP"
-                    self.load_image(urlString: self.graphUrl)
-                    print("JSON: \(JSON)")
-                    
-                }
-                
-        }
+        refresh()
     }
     
     func load_image(urlString:String)
@@ -53,18 +39,25 @@ class ViewController: UIViewController {
     }
     
     @IBAction func refresh(_ sender: UIButton) {
+        refresh()
+    }
+    
+    func refresh() {
+        showSpinner()
         Alamofire.request(url)
             .responseJSON { response in
-                print(response.request as Any)  // original URL request
-                print(response.response as Any) // HTTP URL response
-                print(response.data as Any)     // server data
-                print(response.result)
+                print(response.response)
+                print(response.result.error)
+
+                print(response.data)
+
                 if let JSON = response.result.value {
                     self.geneh.text = "\(JSON) EGP"
-                    print("JSON: \(JSON)")
+                    self.load_image(urlString: self.graphUrl)
                 }
-                
+                self.hideSpinner()
         }
+
     }
     
     override func didReceiveMemoryWarning() {
@@ -72,6 +65,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func showSpinner() {
+        let loadingNotification = MBProgressHUD.showAdded(to: self.view, animated: true)
+        loadingNotification.mode = MBProgressHUDMode.indeterminate
+        loadingNotification.label.text = "Loading"
+    }
+    
+    func hideSpinner() {
+        MBProgressHUD.hide(for: self.view, animated: true)
+    }
 
 }
 

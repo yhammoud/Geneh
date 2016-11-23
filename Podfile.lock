@@ -1,15 +1,18 @@
 PODS:
   - Alamofire (4.0.1)
   - MBProgressHUD (1.0.0)
+  - OneSignal (2.2.2)
 
 DEPENDENCIES:
   - Alamofire (~> 4.0)
   - MBProgressHUD
+  - OneSignal
 
 SPEC CHECKSUMS:
   Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  OneSignal: e0b347d6eb671903e0cec630f1b4c1cc446bd874
 
-PODFILE CHECKSUM: 2aa2de650ad09e154a40564961ff4e15aa4721bc
+PODFILE CHECKSUM: 8dc1c45c8a7350cd081d9242cf2f2839f8c3701a
 
 COCOAPODS: 1.1.1

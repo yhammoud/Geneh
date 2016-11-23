@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		214BE5211DE560AA00439726 /* Geneh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Geneh.entitlements; sourceTree = "<group>"; };
 		2158B33C1DD58200002D2210 /* Geneh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geneh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2158B33F1DD58200002D2210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2158B3411DD58200002D2210 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +95,7 @@
 		2158B33E1DD58200002D2210 /* Geneh */ = {
 			isa = PBXGroup;
 			children = (
+				214BE5211DE560AA00439726 /* Geneh.entitlements */,
 				2158B33F1DD58200002D2210 /* AppDelegate.swift */,
 				2158B3411DD58200002D2210 /* ViewController.swift */,
 				2158B3431DD58200002D2210 /* Main.storyboard */,
@@ -175,9 +177,17 @@
 				TargetAttributes = {
 					2158B33B1DD58200002D2210 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = UKKPQBWHSK;
+						DevelopmentTeam = 5BFTDN6R4X;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					2158B34F1DD58200002D2210 = {
 						CreatedOnToolsVersion = 8.1;
@@ -421,10 +431,12 @@
 			baseConfigurationReference = C219EFB8D7FC79A9B45BB396 /* Pods-Geneh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UKKPQBWHSK;
+				CODE_SIGN_ENTITLEMENTS = Geneh/Geneh.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5BFTDN6R4X;
 				INFOPLIST_FILE = Geneh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fivebox.Geneh;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whyhammoud.geneh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -435,10 +447,12 @@
 			baseConfigurationReference = 4E3595E805FA6636BCDA58AC /* Pods-Geneh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UKKPQBWHSK;
+				CODE_SIGN_ENTITLEMENTS = Geneh/Geneh.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5BFTDN6R4X;
 				INFOPLIST_FILE = Geneh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fivebox.Geneh;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whyhammoud.geneh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
